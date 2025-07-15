@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: #fff;
+
+
+}
+
+:root {
+    --main-color: #969696;
+    --second-color: #fff;
+    --icon-color: #8E7754;
+    --h-color: #303030;
+    --p-color: #686868;
+
+}
+
+.main {
+
+    width: 100vw;
+    height: 130vh;
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.cq {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+
+}
+
+h1 {
+    font-size: 69px !important;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+    letter-spacing: 3px;
+
+}
+
+button {
+    padding: 15px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.Learn {
+    background-color: var(--icon-color)
+}
+
+.Contact-us {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.Learn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.Contact-us:hover {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+span {
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.86em;
+}
+
+.Container p {
+
+
+    font-family: Josefin;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.link {
+    right: 0px;
+    margin-top: 20px;
+    position: fixed;
+    padding: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.link a:hover {
+    color: var(--icon-color);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+header nav img {
+
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 200px;
+    margin: 10px;
+}
+
+.sec {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: left;
+    text-align: start;
+    position: absolute;
+    padding: 20px;
+
+}
+
+.sec img {
+    width: 500px;
+    margin-left: 30px;
+    justify-content: left;
+    margin-top: 70px;
+
+}
+
+.sec p {
+    color: var(--p-color);
+    line-height: 1.86em;
+    padding-left: 60px;
+    /* margin-top: 20%; */
+
+}
+
+h2 {
+    color: var(--h-color);
+    padding-left: 60px;
+    font-size: 38px;
+    margin-top: 19%;
+}
+
+.main-2 {
+   
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    align-content:center;
+    text-align: left;
+    /* margin: 20px; */
+    padding: 30px;
+    gap: 30px;
+    flex-flow: row wrap;
+      margin-left: 30px;
+      overflow: hidden;
+  
+
+}
+.mai-2 span{
+    color: var(--p-color);
+    
+}
+
+
+
+i {
+  color:var(--icon-color);
+  /* z-index: 99;  */
+   border:  1px solid rgb(221, 207, 207);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;                      
+  text-align: center;  
+  justify-content: center; 
+  align-items: center;             
+  vertical-align: middle;
+  overflow: hidden;
+  margin-top: 0  auto;
+  padding: 10px;
+/* margin-right: 10px; */
+
+
+}
+
+
+
+.th {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: right;
+    text-align: start;
+    position: relative;
+    padding: 20px;
+    margin-top: 55%;
+    background-color:rgb(248, 248, 248);
+    
+    
+}
+
+.th img {
+    width: 500px;
+    margin-left: 30px;
+    justify-content: right;
+    /* margin-top: 90%; */
+
+}
+
+.th p {
+    color: var(--p-color);
+    line-height: 1.86em;
+    padding-left: 60px;
+    /* margin-top: 20%; */
+
+}
+.po{
+    margin-top:0%; 
+    position: absolute;
+    left: 20px;
+    /* top: 90px; */
+}
+h3 {
+    color: var(--h-color);
+    padding-left: 60px;
+     font-size: 38px;
+  
+}
+.im{
+  
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+   text-align: center;
+   line-height: 1.86em;
+ 
+
+}
+h5 ,h4{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.im img{
+    width: 90%;
+}
+.im h5,h4{
+    color: var(--h-color);
+}
+.im p ,p{
+      color: var(--p-color);
+}
+p,h4{
+    align-content: center;
+    text-align: center;
+   
+}
+h4{
+   margin-top: 10%;
+}
+p{
+    margin-bottom: 5%;
+}
